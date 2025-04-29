@@ -23,7 +23,7 @@ export default function Home() {
 
     <div className=" text-center justify-center py-60 ">
       <h1 className="text-6xl font-bold mb-6 text-white">Welcome to Video Editor</h1>
-      <p className="text-muted-foreground text-1xl mb-10">
+      <p className="text-muted-foreground text-1xl text-white mb-10">
       Upload, edit, subtitle, overlay, and preview your videos — all inside the browser!
       </p>
       <Link href="/upload">
