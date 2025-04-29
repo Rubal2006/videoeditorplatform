@@ -46,7 +46,7 @@ export default function VideoUploader() {
     <div className="flex flex-col items-center justify-center h-130 p-19">
       <div 
         {...getRootProps()}
-        className={`border-2 h-100 bg-blue-50 border-dashed rounded-xl p-10 w-full max-w-2xl text-center transition ${
+        className={`border-2 h-100 bg-blue-50 border-dashed rounded-xl p-10 w-full max-w-2xl text-center transition flex items-center justify-center h-screen ${
           isDragActive ? "border-primary bg-primary/10" : "border-muted"
         }`}
       >
@@ -55,7 +55,7 @@ export default function VideoUploader() {
         {isDragActive ? (
           <p className="text-lg font-semibold text-primary">Drop the video here ...</p>
         ) : (
-          <p className="text-2xl text-muted-foreground py-40">
+          <p className="text-2xl text-muted-foreground ">
             Drag & drop a video file here, or click to select
           </p>
         )}
